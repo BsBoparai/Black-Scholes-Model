@@ -41,7 +41,7 @@ def main():
     e = float(input("How many days until experation? "))
     r = float(input("input the IV(as a decimal) "))
     t = float(input("input the current Risk Free Rate(as a decimal) "))
-    y = float(input("input the potentail price movement range(as a decimal "))
+    y = float(input("input the potential price movement range(as a decimal) "))
     u = float(input("input the option purchase price "))
     PL = get_PL(q, w, e, r, t, y, u)
     create_chart(PL)
